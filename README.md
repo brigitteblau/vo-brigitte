@@ -15,24 +15,30 @@ VO-basic/
 ├─ requirements.txt
 └─ .gitignore
 
-## Modo de uso
--   Python 3.9+ (probado en macOS)
-- Paquetes: ver `requirements.txt`
- primero crear un entorno virtual 
+## Requisitos
 
- python3 -m venv .venv
+- Python 3.9+ (probado en macOS)
+- Paquetes: ver `requirements.txt` (OpenCV, NumPy, Matplotlib, etc.)
+
+## Quickstart
+
+```bash
+
+python3 -m venv .venv
 source .venv/bin/activate
+
 
 pip install -r requirements.txt
 
-Luego correr el archivo principal aclarando el video
-# python3 vo_pose.py --video ort.MOV --show-matches
-o con webcam:
-# python3 vo_pose.py --camera 0 --show-matches
+# 3) Correr con video
+python3 vo_pose.py --video ort.MOV --show-matches
 
+#    o con webcam (ej. cámara 0)
+python3 vo_pose.py --camera 0 --show-matches
 
-en esta etapa se va a crear un archivo .npy y se puede graficar la trayectoria 
+# 4) en esta etapa se va a crear un archivo .npy y se puede graficar la trayectoria 
 python3 plot_traj.py
+```
 
 ![img 1](readme-images/1.png)
 ![img 2](readme-images/2.png)
