@@ -127,7 +127,7 @@ def main():
                     t_w = t_w + (R_w @ t)
 
                     # Guardar punto 2D (x,z) para dibujar (monocular = escala relativa)
-                    x, z = float(t_w[0]), float(t_w[2])
+                    x, z = float(t_w[0, 0]), float(t_w[2, 0])
                     traj_2d.append((x, z))
 
                     # Dibujar trayectoria

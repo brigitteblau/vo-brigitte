@@ -23,7 +23,7 @@ VO-basic/
 ## Quickstart
 
 ```bash
-
+ # en mac
 python3 -m venv .venv
 source .venv/bin/activate
 
