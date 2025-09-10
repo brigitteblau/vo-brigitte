@@ -1,0 +1,5 @@
+
+opencv-python
+numpy
+matplotlib
+# open3d        # opcional: para visualizar nubes de puntos 3D

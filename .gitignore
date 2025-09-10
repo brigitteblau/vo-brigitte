@@ -1,0 +1,28 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.python-version
+
+# Archivos de ejecución/local
+*.npy
+*.npz
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Builds/dist
+build/
+dist/
