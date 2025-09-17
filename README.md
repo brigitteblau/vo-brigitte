@@ -55,6 +55,13 @@ python3 plot_traj.py
 
 #5 genera points.npy 
 python vo_triangulate.py
+
+python vo_triangulate.py --video test1.mp4 --show --save-colors `
+  --max-feats 1500 `
+  --ratio 0.80 `
+  --reproj-th 6.0 `
+  --kf-stride 10
+
 #6 ver la nube 3d 
 python viz_points.py
 #generar mapa 
