@@ -1,3 +1,4 @@
+#gridmap_from_points.py
 import numpy as np
 import argparse
 import cv2

@@ -40,9 +40,14 @@ vo-brigitte/
  # en mac
 python3 -m venv .venv
 source .venv/bin/activate
-
-
+#eb windows 
+.venv\Scripts\activate
 pip install -r requirements.txt
+
+
+ #correr todo creo 
+python main.py run --input test1.mp4 --max_frames 300
+
 
 # 3) Correr con video
 python3 vo_pose.py --video ort.MOV --show-matches
@@ -67,7 +72,14 @@ python viz_points.py
 #generar mapa 
 python gridmap_from_points.py --use_open3d --cell 0.05 --height_thresh 0.15 --downsample 2
 
+## Run (one-shot)
+**Windows**: `run.bat`  
+**Linux/Mac**:
+```bash
+./run.sh
+
 ```
 
 ![img 1](readme-images/1.png)
 ![img 2](readme-images/2.png)
+![img 2](readme-images/3.png)
