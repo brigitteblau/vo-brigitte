@@ -24,9 +24,9 @@ vo-brigitte/
 ├─ vo_triangulate.py       # Triangula nube de puntos 3D desde la trayectoria → points.npy (+ colors.npy)
 ├─ viz_points.py           # Visualiza la nube 3D con Open3D
 ├─ gridmap_from_points.py  # Genera un mapa 2D (Occupancy Grid) desde points.npy
-├─ live_mapper.py          # Versión en tiempo real: VO + triangulación + grid (cam/video/fotos)
-├─ test1.mp4               # Video de prueba principal
-├─ ort.MOV                 # Otro video de prueba
+├─ live_mapper.py        
+├─ test1.mp4              
+├─ ort.MOV                
 ├─ requirements.txt    
 ├─ README.md
 └─ .gitignore
@@ -163,4 +163,4 @@ Ejemplo de visualizaciones:
 ![img 1](readme-images/1.png)
 ![img 2](readme-images/2.png)
 ![img 3](readme-images/3.png)
-![img 4](readme-images/4.png)
+![img 4](readme-images/grid.png)
