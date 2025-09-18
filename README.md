@@ -83,3 +83,4 @@ python gridmap_from_points.py --use_open3d --cell 0.05 --height_thresh 0.15 --do
 ![img 1](readme-images/1.png)
 ![img 2](readme-images/2.png)
 ![img 2](readme-images/3.png)
+![img 2](readme-images/4.png)
